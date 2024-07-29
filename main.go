@@ -12,6 +12,7 @@ func main() {
 		fmt.Println("2. Even Fibonacci Numbers")
 		fmt.Println("3. Largest Prime Factor")
 		fmt.Println("4. Sum Quare Difference")
+		fmt.Println("5. Smallest Multiple")
 		fmt.Println("0. Exit")
 
 		var choice int
@@ -36,6 +37,8 @@ func main() {
 			largest_prime_factor()
 		case 4:
 			sum_square_difference()
+		case 5:
+			smallest_multiple()
 		default:
 			fmt.Println("Invalid option. Try again!")
 		}
